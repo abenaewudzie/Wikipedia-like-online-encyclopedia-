@@ -1,0 +1,165 @@
+/* General styles */
+body,
+h1,
+h2,
+h3,
+p,
+ol,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Basic styling */
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+}
+
+header {
+	background-color: #4caf50; /* Vibrant green */
+	color: #fff;
+	padding: 1em;
+	display: flex; /* Use flexbox to create a row layout */
+	justify-content: space-between; /* Align items to the start and end of the header */
+	align-items: center; /* Center items vertically */
+}
+
+.logo-search {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-search h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.search-bar {
+	margin-left: 20px; /* Add spacing between logo and search bar */
+}
+
+.search-bar input[type="text"] {
+	padding: 0.5em;
+	border: none;
+	border-radius: 4px;
+}
+
+.search-bar button {
+	padding: 0.5em 1em;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 0.5em;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+main {
+	display: flex;
+}
+
+.content {
+	flex: 3;
+	padding: 20px;
+	display: flex;
+	justify-content: center; /* Center content horizontally */
+	align-items: flex-start; /* Align items to the start */
+}
+
+.edit-form {
+	width: 80%; /* Adjust form width */
+}
+
+.edit-form label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.edit-form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 20px; /* Add spacing between elements */
+}
+
+.edit-form input[type="submit"] {
+	padding: 0.5em 2em; /* Adjust button padding */
+	background-color: #28a745; /* Green button color */
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.edit-form input[type="submit"]:hover {
+	background-color: #218838; /* Darker green on hover */
+}
+
+.sidebar {
+	background-color: #f4f4f4;
+	padding: 20px;
+	border-right: 1px solid #ccc;
+	flex: 1;
+}
+
+.sidebar h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar li {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.sidebar li:last-child {
+	border-bottom: none;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	display: block;
+}
+
+.sidebar a:hover {
+	color: #4caf50;
+}
+
+.sidebar p {
+	margin: 5px 0;
+	font-size: 0.9em;
+}
+
+footer {
+	background-color: #4caf50; /* Vibrant green */
+	color: #fff;
+	text-align: center;
+	padding: 1em 0;
+}

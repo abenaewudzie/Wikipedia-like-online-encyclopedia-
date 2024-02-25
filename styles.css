@@ -1,0 +1,141 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ol, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50; /* Vibrant green */
+    color: #fff;
+    padding: 1em;
+    display: flex; /* Use flexbox to create a row layout */
+    justify-content: space-between; /* Align items to the start and end of the header */
+    align-items: center; /* Center items vertically */
+}
+
+.logo-search {
+    display: flex;
+    align-items: center;
+}
+
+.logo-search h1 {
+    margin: 0;
+}
+
+.search-bar {
+    margin-left: 20px; /* Add spacing between logo and search bar */
+}
+
+.search-bar input[type="text"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; /* Use flexbox for the navigation list */
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center content horizontally */
+}
+
+footer {
+    background-color: #4CAF50; /* Vibrant green */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.content {
+    display: flex; /* Use flexbox to create a row layout */
+    justify-content: space-between; /* Align items to the start and end of the content */
+}
+
+.main-content {
+    width: 70%; /* Set the width of the main content */
+}
+
+.trivia, .references {
+    margin-top: 20px;
+}
+
+.trivia h3, .references h3 {
+    color: #4CAF50; /* Vibrant green */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.trivia p {
+    margin-bottom: 10px;
+}
+
+.references ol {
+    list-style-type: decimal;
+}
+
+.references ol li {
+    margin-bottom: 5px;
+}
+
+.featured-articles {
+    width: 25%; /* Set width for featured articles */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.featured-articles h2 {
+    color: #333; /* Dark gray */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.featured-articles ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.featured-articles li {
+    margin-bottom: 10px;
+}
+
+.featured-articles a {
+    color: #4CAF50; /* Vibrant green */
+    text-decoration: none;
+}
+
+.featured-articles a:hover {
+    text-decoration: underline;
+}
